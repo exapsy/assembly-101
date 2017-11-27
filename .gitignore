@@ -1,0 +1,7 @@
+# Ignore compiled code #
+########################
+
+*.o
+*.out
+*.s.swp
+*.asm.swp
