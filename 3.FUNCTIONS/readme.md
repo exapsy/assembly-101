@@ -1,6 +1,11 @@
 # LESSON 3
 
 ## Functions
+```assemply
+_printHello:    ; A Label
+...
+```
+
 - **Functions** are **Labels**. 
 
 - A **Label** stores the address of the current line for future use.
