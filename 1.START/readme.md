@@ -20,7 +20,7 @@ _getName:
 ...
 ```
 
-- **.db** keeps the predefined bytes for the program, something like Constants
+- **.db** keeps the predefined bytes for the program
 ```assemply
 section .db
   text db "Hello"   ; define 6 bytes (NULL included) for label 'text'
