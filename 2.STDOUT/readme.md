@@ -5,7 +5,7 @@
   section .data
     text db "Hello World"
   ```
-  `db` stands for **define bytes**. In this line we define **6 bytes** for label `text`
+  `db` stands for **define bytes**. In this line we define **12 bytes** for label `text`
 
 ## sys_write
 - ### mov rax, 1
