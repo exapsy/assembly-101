@@ -22,7 +22,7 @@ _getName:
 
 - **.db** keeps the predefined bytes for the program
 ```assembly
-section .db
+section .data
   text db "Hello"   ; define 6 bytes (NULL included) for label 'text'
 ```
 - **.bss** predefines empty bytes for future use
