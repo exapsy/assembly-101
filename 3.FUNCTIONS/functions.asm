@@ -13,7 +13,7 @@ _start:
 _printHello:
 	mov rax, 1 		; sys_write
 	mov rdi, 1		; stdout
-	mov rsi, text	; rsi = "hello!\n\0"
+	mov rsi, text		; rsi = "hello!\n\0"
 	mov rdx, 8		; length = 8 bytes
 	syscall			; sys_write(stdout, text, 8)
-	ret				; return
+	ret			; return
