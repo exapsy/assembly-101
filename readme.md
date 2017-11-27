@@ -25,7 +25,7 @@ sudo apt-get install asm
     ld assembly.o
   ```
   
-### And I here you asking ... 
+### And I hear you asking ... 
 
 **'What is the `-f elf64` stands for?'**
 See for yourself
