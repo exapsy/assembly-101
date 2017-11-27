@@ -4,5 +4,5 @@ section .text		; This section keeps the actual code
 _start:				; Every linker ... links the libraries with this label
 	mov rax, 60		; Stands for 'sys_exit' in Linux
 	mov rdi, 0		; 1st syscall argument
-	syscall			; sys_exit(0) since rax=0=exit & rdi=0=arg0
+	syscall			; sys_exit(0) since rax=60=exit & rdi=0=arg0
 
