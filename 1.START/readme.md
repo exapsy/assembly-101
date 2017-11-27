@@ -1,15 +1,15 @@
 # LESSON 1
 
 ## Comments
-```assemply
+```assembly
 mov rax, 1    ; Semicolon starts a comment
 ```
 
 ## Sections
-Assemply has **Sections**. What they do? They keep program information.
+assembly has **Sections**. What they do? They keep program information.
 
 - **.text** keeps the program's code
-```assemply
+```assembly
 section .text
   global _start
 _start:
@@ -21,25 +21,25 @@ _getName:
 ```
 
 - **.db** keeps the predefined bytes for the program
-```assemply
+```assembly
 section .db
   text db "Hello"   ; define 6 bytes (NULL included) for label 'text'
 ```
 - **.bss** predefines empty bytes for future use
-```assemply
+```assembly
 section .bss
   name resb 16       ; reserve 16 bytes for label 'name'
 ```
 
 ## Labels
 This is a call label
-```assemply
+```assembly
 section .text
 ...
 _printSomething:  ; Label
 ```
 The code after it will be executed after calling it
-```assemply
+```assembly
 call _printSomething
 ```
 
