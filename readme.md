@@ -8,7 +8,7 @@ All you have to do is
 1. ### Install nasm 
   (it's an assembler - compiles assembly)
 ```bash
-sudo apt-get install asm
+sudo apt-get install nasm
 ```
     
     
